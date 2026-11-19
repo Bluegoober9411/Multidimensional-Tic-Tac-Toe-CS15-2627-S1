@@ -50,7 +50,8 @@ Winner: X
 | 2D List Usage | Correctly works with the provided 3×3 boards as 2D lists containing rows and columns. | 2 |
 | Display Function | Creates `display_grid(grid)` and uses values from the supplied 2D list to produce a clear board display. | 4 |
 | Row and Column Win Detection | Correctly checks all rows and columns for three matching values. | 4 |
-| Diagonal and Tie Detection | Correctly checks both diagonals and identifies games with no winner as ties. | 4 |
+| Diagonal and Tie Detection | Correctly checks both diagonals for three matching values. | 2 |
+| Tie Detection | Correctly identifies a completed board that has been tied. | 2 |
 | Testing Multiple Grids | Uses the same functions to display and analyze every provided board. | 2 |
 |  | **Total** | **16** |
 
